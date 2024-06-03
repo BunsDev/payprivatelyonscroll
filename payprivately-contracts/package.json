@@ -5,7 +5,8 @@
   "scripts": {
     "circuit:build": "hardhat circom --verbose",
     "build": "hardhat compile --verbose",
-    "test": "hardhat test --bail"
+    "test": "hardhat test --bail",
+    "deploy": "hardhat deploy"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
